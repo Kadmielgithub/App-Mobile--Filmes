@@ -1,7 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules } from '@angular/router';
-
 export const routes: Routes = [
   {
     path: 'profile',
