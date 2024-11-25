@@ -14,7 +14,12 @@ import {
   IonInfiniteScroll,
   IonInfiniteScrollContent,
   IonSkeletonText,
+<<<<<<< HEAD
   IonAlert, IonIcon } from '@ionic/angular/standalone';
+=======
+  IonAlert,
+} from '@ionic/angular/standalone';
+>>>>>>> 5f306f46e38f1834d2ea36343a75c433f32b26b3
 import { MovieService } from '../services/movie.service';
 import { DatePipe } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -25,7 +30,11 @@ import { catchError, finalize } from 'rxjs';
   templateUrl: './home-defer.page.html',
   styleUrls: ['./home-defer.page.scss'],
   standalone: true,
+<<<<<<< HEAD
   imports: [IonIcon, 
+=======
+  imports: [
+>>>>>>> 5f306f46e38f1834d2ea36343a75c433f32b26b3
     IonHeader,
     IonToolbar,
     IonTitle,
